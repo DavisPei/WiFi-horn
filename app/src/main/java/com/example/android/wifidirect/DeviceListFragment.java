@@ -75,6 +75,7 @@ public class DeviceListFragment extends ListFragment implements PeerListListener
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mContentView = inflater.inflate(R.layout.device_list, null);
         return mContentView;
+        
     }
 
     public WifiP2pDevice getDevice() {
