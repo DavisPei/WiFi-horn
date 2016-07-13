@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\ant\Android-WiFiBeacon-demo-master\WifiDirect to Scan and Rename2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="48861a86f75564c5e4aa9a3e4e1b8129bd6b1833">
+        <dex dex="D:\ant\Android-WiFiBeacon-demo-master\WifiDirect to Scan and Rename2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_703666e66f009a2857802bc1a51d676f3f3a37a0.jar" />
+    </item>
+    <item
+        jar="F:\btdownload\android_common_sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\ant\Android-WiFiBeacon-demo-master\WifiDirect to Scan and Rename2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_42d5705c999842deb415f6bd90d1bf3e74e7b4c3.jar" />
+    </item>
+    <item
+        jar="D:\ant\Android-WiFiBeacon-demo-master\WifiDirect to Scan and Rename2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="67478876acb6593deefd2bc73fcdd7647a65435b">
+        <dex dex="D:\ant\Android-WiFiBeacon-demo-master\WifiDirect to Scan and Rename2\app\build\intermediates\pre-dexed\debug\instant-run_18732e716dc3c96cb406333ddc17bbf40c334feb.jar" />
+    </item>
+
+</items>

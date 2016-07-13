@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\ant\\Android-WiFiBeacon-demo-master\\WifiDirect to Scan and Rename2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_action_discover.png",
+        "source": "D:\\ant\\Android-WiFiBeacon-demo-master\\WifiDirect to Scan and Rename2\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_discover.png"
+    },
+    {
+        "merged": "D:\\ant\\Android-WiFiBeacon-demo-master\\WifiDirect to Scan and Rename2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_action_on_off.png",
+        "source": "D:\\ant\\Android-WiFiBeacon-demo-master\\WifiDirect to Scan and Rename2\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_on_off.png"
+    },
+    {
+        "merged": "D:\\ant\\Android-WiFiBeacon-demo-master\\WifiDirect to Scan and Rename2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\ant\\Android-WiFiBeacon-demo-master\\WifiDirect to Scan and Rename2\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]
