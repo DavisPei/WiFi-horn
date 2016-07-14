@@ -48,6 +48,7 @@ public class DeviceListFragment extends ListFragment implements PeerListListener
     private Gps otherGps = new Gps();
     private CollisionPrediction1 cp = new CollisionPrediction1();
     private int collisionFlag;
+    String collisionState;
     String provider;
 
     DecimalFormat dfSpeed = new DecimalFormat("00.0");
@@ -154,9 +155,7 @@ public class DeviceListFragment extends ListFragment implements PeerListListener
 //                    bottom.setText(device.deviceAddress);
 //                }
                 if(top!=null && bottom!=null){
-                    //textView 显示ssid及mac地址
-                    top.setText(device.deviceName);
-                    bottom.setText(device.deviceAddress);
+
                     if(device.deviceName.indexOf("C2X")!=-1){
                         otherGps.setCarId("otherCar");
                         otherGps.setGpsTime(1);
@@ -181,15 +180,26 @@ public class DeviceListFragment extends ListFragment implements PeerListListener
                         cp.setData1(myGps);
                         cp.setData2(otherGps);
                         collisionFlag = cp.collisionDirection();
+//                        if (collisionFlag == 0)
+//                            collision.setText("normal");
+//                        else if(collisionFlag == 1)
+//                            collision.setText("left");
+//                        else if(collisionFlag == 2)
+//                            collision.setText("right");
+//                        else
+//                            collision.setText("error");
                         if (collisionFlag == 0)
-                            collision.setText("normal");
+                            collisionState = "normal";
                         else if(collisionFlag == 1)
-                            collision.setText("left");
+                            collisionState = "left";
                         else if(collisionFlag == 2)
-                            collision.setText("right");
+                            collisionState = "right";
                         else
-                            collision.setText("error");
+                            collisionState = "error";
 
+                        //textView 显示ssid及mac地址
+                        top.setText(device.deviceName + " " + collisionState);
+                        bottom.setText(device.deviceAddress);
 
                     }else{
                        // Toast.makeText(this.getContext(), device.deviceName, Toast.LENGTH_SHORT).show();
